@@ -12,9 +12,16 @@ interface ProjectCardProps {
     index: number;
 }
 
+const titleToSlug = (title: string): string => {
+    return title
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+};
+
 const ProjectCard: React.FC<ProjectCardProps> = ({ data, index }) => {
     return (
-        <Link href={`/portfolio/${data.slug || '#'}`} className="block group">
+        <Link href={`/${titleToSlug(data.title)}`} className="block group">
             <Card className='rounded-none border-none shadow-none bg-transparent group/card'>
                 <div className='relative overflow-hidden w-full'>
                     <div className="w-full aspect-[16/10] overflow-hidden rounded-none">

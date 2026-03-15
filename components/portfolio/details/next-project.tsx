@@ -16,7 +16,7 @@ const NextProject = ({ slug, title }: NextProjectProps) => {
             <div className="absolute inset-0 opacity-[0.06] bg-[radial-gradient(circle_at_50%_50%,#003B38,transparent_60%)]" />
 
             <Link
-                href={`/portfolio/${slug}`}
+                href={`/${slug}`}
                 className="
           relative z-10 rounded-full overflow-hidden
           w-[min(135vmin,1500px)] aspect-square
