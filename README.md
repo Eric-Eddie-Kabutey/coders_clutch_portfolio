@@ -1,6 +1,6 @@
 # Coders Clutch Portfolio
 
-Independent Portfolio project for Coders Clutch.
+Independent Portfolio project for Coders Clutch..
 
 ## Subdomain
 [portfolio.codersclutch.com](https://portfolio.codersclutch.com)
