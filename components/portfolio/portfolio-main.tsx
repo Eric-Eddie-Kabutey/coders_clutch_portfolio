@@ -118,8 +118,8 @@ function PortfolioMain() {
                                             <div className='w-full py-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
                                                 {projectsToShow.map((data, index) => (
                                                     // href={`/insights/casestudies/${data.slug}`}
-                                                    <Link href={`/${titleToSlug(data.title)}`} >
-                                                        <Card key={data.id} className='rounded-none border-none shadow-none bg-transparent group/card'>
+                                                    <Link key={data.id} href={`/${titleToSlug(data.title)}`} >
+                                                        <Card className='rounded-none border-none shadow-none bg-transparent group/card'>
                                                             <div className='relative overflow-hidden w-full'>
                                                                 <div className='w-full aspect-[16/10] overflow-hidden rounded-none'>
                                                                     <Image

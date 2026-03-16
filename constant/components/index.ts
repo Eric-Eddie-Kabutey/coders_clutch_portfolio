@@ -109,6 +109,8 @@ import liftcredit_cover from "@/public/assets/images/projects/liftcredit/COVERPA
 import liftcredit_cover2 from "@/public/assets/images/projects/liftcredit/COVERPAGE MOBILE.png";
 import dkpay_cover from "@/public/assets/images/projects/Dkpay/COVERPAGE.png";
 import dkpay_cover2 from "@/public/assets/images/projects/Dkpay/SCREEN 01.png";
+import bonfo_cover from "@/public/assets/images/projects/bonfo/COVERPAGE.png";
+import bonfo_cover2 from "@/public/assets/images/projects/bonfo/CARD 06.png";
 
 import test1 from "@/public/assets/images/security-cloud/fatou_saine_gaye.png"
 import test2 from "@/public/assets/images/empty_profile.png"
@@ -191,6 +193,76 @@ export const testimonial = [
 export const clients_project: ProjectProp[] = [
 
     {
+        id: "6",
+        slug: "bonfo",
+        img: bonfo_cover,
+        title: "Bonfo",
+        category: "Mobile App",
+        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eum fugit necessitatibus dignissimos 
+                    eveniet hic possimus numquam blanditiis est alias.`,
+        tags: ["E-Commerce", "Web Design"],
+        year: "2023",
+        client: "Bonfo",
+        role: "UI/UX Design",
+        overview: "A sleek e-commerce interface for a fashion brand.",
+        impact: "Modernized brand image attracting a younger demographic.",
+        processSteps: [
+            {
+                title: "Trend Research",
+                duration: "8 hours",
+                tags: ["Fashion Trends", "Gen Z Habits", "Visual Identity"],
+                icon: "search"
+            },
+            {
+                title: "UX Design",
+                duration: "25 hours",
+                tags: ["Shopping Cart Flow", "Mobile Optimization", "Wishlist Features"],
+                icon: "strategy"
+            },
+            {
+                title: "UI Polish",
+                duration: "30 hours",
+                tags: ["High-fidelity Mockups", "Micro-interactions", "Asset Export"],
+                icon: "solution"
+            }
+        ],
+        techStack: ["Figma", "Adobe XD", "React"],
+        challenge: {
+            title: "Brand Alignment",
+            description: "Balancing a minimalist design with the need to showcase vibrant fashion products."
+        },
+        solution: {
+            title: "Visual Balance",
+            description: "We created a neutral canvas that allows the product photography to take center stage."
+        },
+        images: {
+            hero: bonfo_cover,
+            hero2: bonfo_cover2,
+            gallery: [
+                "/assets/images/projects/bonfo/CARD 01.png",
+                "/assets/images/projects/bonfo/CARD 02.png",
+                "/assets/images/projects/bonfo/CARD 03.png",
+                "/assets/images/projects/bonfo/CARD 04.png",
+                "/assets/images/projects/bonfo/CARD 05.png",
+                "/assets/images/projects/bonfo/CARD 06.png",
+            ],
+            responsive: [
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 01.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 02.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 03.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 04.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 05.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 06.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 07.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 08.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 09.png",
+                "/assets/images/projects/bonfo/IPHONE 15 PRO 10.png",
+            ]
+        },
+        liveUrl: "https://www.bonfo.com",
+        midSectionImage: "/assets/images/projects/bonfo/MOBILE MOCKUP COLLAGE GRID.png"
+    },
+    {
         id: "11",
         slug: "dk-pay",
         img: dkpay_cover,
@@ -238,14 +310,14 @@ export const clients_project: ProjectProp[] = [
             gallery: [
                 "/assets/images/projects/Dkpay/SCREEN 01.png",
                 "/assets/images/projects/Dkpay/SCREEN 02.png",
-                "/assets/images/projects/Dkpay/SCREEN 03.png",  
+                "/assets/images/projects/Dkpay/SCREEN 03.png",
                 "/assets/images/projects/Dkpay/SCREEN 04.png",
-                "/assets/images/projects/Dkpay/SCREEN 05.png", 
-                "/assets/images/projects/Dkpay/SCREEN 06.png", 
-                "/assets/images/projects/Dkpay/SCREEN 07.png", 
-                "/assets/images/projects/Dkpay/SCREEN 08.png", 
-                "/assets/images/projects/Dkpay/SCREEN 09.png", 
-                "/assets/images/projects/Dkpay/SCREEN 10.png",  
+                "/assets/images/projects/Dkpay/SCREEN 05.png",
+                "/assets/images/projects/Dkpay/SCREEN 06.png",
+                "/assets/images/projects/Dkpay/SCREEN 07.png",
+                "/assets/images/projects/Dkpay/SCREEN 08.png",
+                "/assets/images/projects/Dkpay/SCREEN 09.png",
+                "/assets/images/projects/Dkpay/SCREEN 10.png",
             ],
             responsive: [
                 "/assets/images/projects/Dkpay/IPHONE 15 - A.png",
@@ -724,56 +796,6 @@ export const clients_project: ProjectProp[] = [
                 "/assets/images/slider/p1/5.png",
                 "/assets/images/slider/p1/6.png"
             ]
-        },
-        midSectionImage: "/assets/images/collage.png.webp"
-    },
-    {
-        id: "6",
-        slug: "bonfo-website",
-        img: bonfoImg,
-        title: "Bonfo Website",
-        category: "Websites",
-        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eum fugit necessitatibus dignissimos 
-                    eveniet hic possimus numquam blanditiis est alias.`,
-        tags: ["E-Commerce", "Web Design"],
-        year: "2023",
-        client: "Bonfo",
-        role: "UI/UX Design",
-        overview: "A sleek e-commerce interface for a fashion brand.",
-        impact: "Modernized brand image attracting a younger demographic.",
-        processSteps: [
-            {
-                title: "Trend Research",
-                duration: "8 hours",
-                tags: ["Fashion Trends", "Gen Z Habits", "Visual Identity"],
-                icon: "search"
-            },
-            {
-                title: "UX Design",
-                duration: "25 hours",
-                tags: ["Shopping Cart Flow", "Mobile Optimization", "Wishlist Features"],
-                icon: "strategy"
-            },
-            {
-                title: "UI Polish",
-                duration: "30 hours",
-                tags: ["High-fidelity Mockups", "Micro-interactions", "Asset Export"],
-                icon: "solution"
-            }
-        ],
-        techStack: ["Figma", "Adobe XD", "React"],
-        challenge: {
-            title: "Brand Alignment",
-            description: "Balancing a minimalist design with the need to showcase vibrant fashion products."
-        },
-        solution: {
-            title: "Visual Balance",
-            description: "We created a neutral canvas that allows the product photography to take center stage."
-        },
-        images: {
-            hero: bonfoImg,
-            hero2: bonfoImg,
-            gallery: ["/assets/images/slider/p1/1.png", "/assets/images/slider/p1/2.png", "/assets/images/slider/p1/3.png", "/assets/images/slider/p1/4.png", "/assets/images/slider/p1/5.png", "/assets/images/slider/p1/6.png"]
         },
         midSectionImage: "/assets/images/collage.png.webp"
     },
