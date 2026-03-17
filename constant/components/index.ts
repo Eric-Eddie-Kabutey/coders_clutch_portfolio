@@ -111,6 +111,8 @@ import dkpay_cover from "@/public/assets/images/projects/Dkpay/COVERPAGE.png";
 import dkpay_cover2 from "@/public/assets/images/projects/Dkpay/SCREEN 01.png";
 import bonfo_cover from "@/public/assets/images/projects/bonfo/COVERPAGE.png";
 import bonfo_cover2 from "@/public/assets/images/projects/bonfo/CARD 06.png";
+import one_world_cover from "@/public/assets/images/projects/OneWorld/COVERPAGE.png";
+import one_world_cover2 from "@/public/assets/images/projects/OneWorld/MOBILE MOCKUP COLLAGE GRID_.png";
 
 import test1 from "@/public/assets/images/security-cloud/fatou_saine_gaye.png"
 import test2 from "@/public/assets/images/empty_profile.png"
@@ -192,6 +194,73 @@ export const testimonial = [
 
 export const clients_project: ProjectProp[] = [
 
+    {
+        id: "4",
+        slug: "one-world-financial-services",
+        img: one_world_cover,
+        title: "One World Financial Services",
+        category: "Websites",
+        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eum fugit necessitatibus dignissimos 
+                    eveniet hic possimus numquam blanditiis est alias.`,
+        tags: ["Fintech", "Corporate", "Web Design"],
+        year: "2023",
+        client: "One World Financials",
+        role: "Frontend Development",
+        overview: "A corporate website for a financial services firm, focusing on credibility and detailed service information.",
+        impact: "Enhanced brand credibility and lead generation from institutional clients.",
+        designProcess: "We adopted a minimal, corporate aesthetic with blue tones to convey trust and stability.",
+        processSteps: [
+            {
+                title: "Analysis",
+                duration: "10 hours",
+                tags: ["Competitive Audit", "Regulation Compliance", "User Flow"],
+                icon: "search"
+            },
+            {
+                title: "Architecture",
+                duration: "40 hours",
+                tags: ["Sitemap", "Data Security", "UX Writing"],
+                icon: "strategy"
+            },
+            {
+                title: "Development",
+                duration: "60 hours",
+                tags: ["Frontend", "Backend Integration", "Security Testing"],
+                icon: "solution"
+            }
+        ],
+        techStack: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
+        challenge: {
+            title: "Information Density",
+            description: "Presenting complex financial information in a digestible and accessible format without overwhelming the user."
+        },
+        solution: {
+            title: "Structured Layouts",
+            description: "We used expandable sections and clear visual hierarchies to organize content effectively."
+        },
+        images: {
+            hero: one_world_cover,
+            hero2: one_world_cover2,
+            gallery: [
+                "/assets/images/projects/OneWorld/SCREEN 01.png",
+                "/assets/images/projects/OneWorld/SCREEN 02.png",
+                "/assets/images/projects/OneWorld/SCREEN 03.png",
+                "/assets/images/projects/OneWorld/SCREEN 05.png",
+                "/assets/images/projects/OneWorld/SCREEN 08.png",
+                "/assets/images/projects/OneWorld/SCREEN 09.png",
+                "/assets/images/projects/OneWorld/SCREEN 11.png",
+                "/assets/images/projects/OneWorld/SCREEN 14.png",
+            ],
+            responsive: [
+                "/assets/images/projects/OneWorld/IPHONE 15 PRO - 07.png",
+                "/assets/images/projects/OneWorld/IPHONE 15 PRO - 08.png",
+                "/assets/images/projects/OneWorld/IPHONE 15 PRO 01.png",
+                "/assets/images/projects/OneWorld/IPHONE 15 PRO - 12.png",
+            ]
+        },
+        liveUrl: "https://www.oneworld.com",
+        midSectionImage: "/assets/images/projects/OneWorld/SCREEN COLLAGE.png"
+    },
     {
         id: "6",
         slug: "bonfo",
@@ -672,64 +741,6 @@ export const clients_project: ProjectProp[] = [
         images: {
             hero: FAB_FOUNDATION_New_mockup,
             hero2: FAB_FOUNDATION_New_mockup,
-            gallery: [
-                "/assets/images/slider/p1/1.png",
-                "/assets/images/slider/p1/2.png",
-                "/assets/images/slider/p1/3.png",
-                "/assets/images/slider/p1/4.png",
-                "/assets/images/slider/p1/5.png",
-                "/assets/images/slider/p1/6.png"
-            ]
-        },
-        midSectionImage: "/assets/images/collage.png.webp"
-    },
-    {
-        id: "4",
-        slug: "one-world-financial-services",
-        img: ONE_WORLD_FINANCIALS_New_mockup,
-        title: "One World Financial Services",
-        category: "Websites",
-        description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eum fugit necessitatibus dignissimos 
-                    eveniet hic possimus numquam blanditiis est alias.`,
-        tags: ["Fintech", "Corporate", "Web Design"],
-        year: "2023",
-        client: "One World Financials",
-        role: "Frontend Development",
-        overview: "A corporate website for a financial services firm, focusing on credibility and detailed service information.",
-        impact: "Enhanced brand credibility and lead generation from institutional clients.",
-        designProcess: "We adopted a minimal, corporate aesthetic with blue tones to convey trust and stability.",
-        processSteps: [
-            {
-                title: "Analysis",
-                duration: "10 hours",
-                tags: ["Competitive Audit", "Regulation Compliance", "User Flow"],
-                icon: "search"
-            },
-            {
-                title: "Architecture",
-                duration: "40 hours",
-                tags: ["Sitemap", "Data Security", "UX Writing"],
-                icon: "strategy"
-            },
-            {
-                title: "Development",
-                duration: "60 hours",
-                tags: ["Frontend", "Backend Integration", "Security Testing"],
-                icon: "solution"
-            }
-        ],
-        techStack: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
-        challenge: {
-            title: "Information Density",
-            description: "Presenting complex financial information in a digestible and accessible format without overwhelming the user."
-        },
-        solution: {
-            title: "Structured Layouts",
-            description: "We used expandable sections and clear visual hierarchies to organize content effectively."
-        },
-        images: {
-            hero: ONE_WORLD_FINANCIALS_New_mockup,
-            hero2: ONE_WORLD_FINANCIALS_New_mockup,
             gallery: [
                 "/assets/images/slider/p1/1.png",
                 "/assets/images/slider/p1/2.png",
